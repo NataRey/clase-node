@@ -45,3 +45,10 @@ servidor.get("/rutaCualquiera", (solicitud, respuesta)=>{
 //como asignarle el servidor 
 servidor.listen(3000);
 console.log("El servidor se esta escuchando en el link http://localhost:3000'")
+//haver un rest api con express
+//Readme
+//Contenido Libre
+//Pruebas en postman
+// mdn http verbs
+//mdn http codes
+
