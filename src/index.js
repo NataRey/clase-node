@@ -1,3 +1,5 @@
+//importo el archivo dotenv despues de configurar la ruta de mi base de datos y encriptarla
+import "dotenv/config";
 //importo el archivo de conexionBD.js luego de instalar mongoose
 import "./conexionBD.js";
 
