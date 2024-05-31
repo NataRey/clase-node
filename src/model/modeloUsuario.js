@@ -8,7 +8,8 @@ const esquemaUsuario = new Schema(
     //voy a indicar como debe estar estructurado mi Schema
 // pongo los datos que necesite para el usuario en este caso
     "nombre": {type: String, required: true},
-    "telefono":{type: Number, min: 10, max: 12,required: true},
+    //"telefono":{type: Number, min: 10, max: 10,required: true},
+    // el telefono falla 
     "email": {type: String, required: true},
     "contrasenia": {type: String, required: true},
     "foto": {type: String, required: false},
